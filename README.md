@@ -7,6 +7,11 @@ workstation. No "build a chatbot" filler.
 This is the public subset of a 1000-task catalog. 278 entries were removed because they
 referenced personal, family, financial, or health details.
 
+**[Browse all 722 entries, searchable and filterable](https://jesserweigel.github.io/722-things-to-build/)**
+
+The site filters by category, effort and any of the five scores, searches titles and
+descriptions, and links through to the ones that have actually been built.
+
 ## Why this exists
 
 Most "AI project ideas" lists are 50 items long, written in a single pass, and converge on the
@@ -83,6 +88,69 @@ framing. Nothing in this catalog diagnoses, prescribes, or substitutes for a cli
 entries are analysis and personal-automation tooling. None of them predict prices or constitute
 financial advice.
 
+## What has been built from it so far
+
+17 entries in this catalog have been implemented, verified by running them, and published.
+Each one is linked from its entry on the site, and the label is generated from a log of real
+verify-command exit codes rather than written by hand, so nothing can be marked built without a
+recorded passing run behind it.
+
+## Regenerating the site
+
+```bash
+bash scripts/verify.sh                              # 9 checks, two of them negative controls
+python3 tools/build_catalog_site.py --expect 722    # rebuild docs/index.html
+```
+
+<details>
+<summary>Verify output, 2026-07-26</summary>
+
+```
+$ bash scripts/verify.sh
+1. the parse is strict and accounts for every entry
+    20-weird.md                  46 entries  Delightful Experiments & Art Objects
+    TOTAL                       722 entries in 17 categories, 722 unique ids
+    verified-built tasks in this catalog: 17 (of 17 passing runs overall)
+  ok    parsed exactly 722 entries with unique ids
+
+2. an independent count from the raw markdown agrees
+  ok    grep also finds 722 entry headings
+
+3. every entry has all five scores, an effort and a needs line
+  ok    score lines and needs lines both match the entry count
+
+4. the built page carries every entry and no remote assets
+  ok    722 records embedded, no remote assets
+  ok    light and dark are both defined, with an attribute override in both directions
+
+5. only genuinely passing runs are labelled as built
+  17 tasks marked built, all backed by a passing run
+  ok    every 'built' label is backed by a recorded passing run
+
+6. NEGATIVE CONTROL: a damaged catalog must fail the parse
+  ok    a missing Scores line is refused rather than skipped
+
+7. NEGATIVE CONTROL: a missing entry must fail the count
+  ok    one missing entry is caught by the count assertion
+
+8. no secrets or personal paths in anything tracked
+  ok    no credential-shaped or personal strings found
+
+9 passed, 0 failed
+VERIFY OK
+```
+</details>
+
+The parser is deliberately strict: it refuses an entry it cannot fully account for rather than
+skipping it. A regex parser that skips silently would produce a site that looks complete while
+missing entries, and no amount of reading the rendered page would reveal it. Two of the verify
+checks damage a copy of the catalog on purpose and require the build to fail, because the count
+assertions would otherwise be passing vacuously.
+
+Writing the parser found a real inconsistency: 70 entries use an `XL` effort tier. The README
+documents it, the parser did not accept it, and the strict parse refused the whole file rather
+than dropping 70 entries.
+
 ## License
 
-MIT. Take the ideas, they are not the hard part.
+MIT for the catalog text. Each implemented project carries its own license in its own repository.

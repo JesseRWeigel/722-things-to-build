@@ -1,0 +1,59 @@
+{"ts":"2026-07-25T13:02:34","task":"DEVT-012","slug":"tailwind-lint","verify":"npm run verify","exit_code":0,"passed":true,"seconds":0.2,"repo":""}
+{"ts":"2026-07-25T13:04:57","task":"AGENT-017","slug":"outbound-secret-guard","verify":"./verify.sh","exit_code":0,"passed":true,"seconds":0.7,"repo":"https://github.com/JesseRWeigel/outbound-secret-guard"}
+{"ts":"2026-07-25T13:29:26","task":"EXT-004","slug":"contrast-oracle","verify":"node --test test/*.test.js && node scripts/build.js && node scripts/verify-build.js","exit_code":0,"passed":true,"seconds":0.2,"repo":""}
+{"ts":"2026-07-25T23:12:12","task":"AGENT-017","slug":"outbound-secret-guard","verify":"./verify.sh","exit_code":0,"passed":true,"seconds":0.8,"repo":"https://github.com/JesseRWeigel/outbound-secret-guard"}
+{"ts":"2026-07-25T23:12:12","task":"EXT-004","slug":"contrast-oracle","verify":"node --test test/*.test.js && node scripts/build.js && node scripts/verify-build.js","exit_code":0,"passed":true,"seconds":0.3,"repo":"https://github.com/JesseRWeigel/contrast-oracle"}
+{"ts":"2026-07-25T23:12:33","task":"GPU-010","slug":"vram-oracle","verify":"./verify.sh","exit_code":1,"passed":false,"seconds":0.5,"repo":""}
+{"ts":"2026-07-25T23:12:51","task":"SAAS-035","slug":"should-i-install","verify":"node test/verify.js","exit_code":0,"passed":true,"seconds":2.6,"repo":""}
+{"ts":"2026-07-25T23:12:51","task":"DEVT-001","slug":"type-debt-ratchet","verify":"bash scripts/verify.sh","exit_code":127,"passed":false,"seconds":0.0,"repo":""}
+{"ts":"2026-07-25T23:14:13","task":"DEVT-001","slug":"type-debt-ratchet","verify":"bash scripts/verify.sh","exit_code":0,"passed":true,"seconds":3.0,"repo":"https://github.com/JesseRWeigel/type-debt-ratchet"}
+{"ts":"2026-07-25T23:16:55","task":"EVAL-004","slug":"env-leak-eval","verify":"./verify.sh","exit_code":0,"passed":true,"seconds":102.2,"repo":""}
+{"ts":"2026-07-25T23:20:56","task":"EVAL-004","slug":"env-leak-eval","verify":"./verify.sh","exit_code":0,"passed":true,"seconds":43.8,"repo":"https://github.com/JesseRWeigel/env-leak-eval"}
+{"ts":"2026-07-25T23:46:42","task":"SAAS-035","slug":"should-i-install","verify":"node test/verify.js","exit_code":0,"passed":true,"seconds":2.3,"repo":"https://github.com/JesseRWeigel/should-i-install"}
+{"ts":"2026-07-25T23:47:25","task":"ART-036","slug":"sfxforge","verify":"python3 -m unittest discover -s tests -q && python3 scripts/smoke_test.py","exit_code":0,"passed":true,"seconds":0.5,"repo":""}
+{"ts":"2026-07-25T23:47:28","task":"SAAS-033","slug":"npm-handoff-watch","verify":"python3 -m unittest discover -s tests -v","exit_code":0,"passed":true,"seconds":0.1,"repo":""}
+{"ts":"2026-07-25T23:47:56","task":"ART-036","slug":"sfxforge","verify":"python3 -m unittest discover -s tests -q && python3 scripts/smoke_test.py","exit_code":0,"passed":true,"seconds":0.5,"repo":"https://github.com/JesseRWeigel/sfxforge"}
+{"ts":"2026-07-25T23:48:07","task":"SAAS-033","slug":"npm-handoff-watch","verify":"python3 -m unittest discover -s tests -q","exit_code":0,"passed":true,"seconds":0.1,"repo":""}
+{"ts":"2026-07-25T23:48:15","task":"ART-034","slug":"driftfield","verify":"python3 -m unittest -v","exit_code":0,"passed":true,"seconds":1.1,"repo":""}
+{"ts":"2026-07-25T23:48:49","task":"SAAS-033","slug":"npm-handoff-watch","verify":"python3 -m unittest discover -s tests -q","exit_code":0,"passed":true,"seconds":0.1,"repo":"https://github.com/JesseRWeigel/npm-handoff-watch"}
+{"ts":"2026-07-25T23:49:05","task":"ART-034","slug":"driftfield","verify":"python3 -m unittest test_driftfield -q && node runtime_harness.cjs","exit_code":0,"passed":true,"seconds":2.2,"repo":""}
+{"ts":"2026-07-25T23:49:34","task":"ART-036","slug":"sfxforge","verify":"python3 -m unittest discover -s tests -v && python3 scripts/smoke_test.py","exit_code":0,"passed":true,"seconds":0.6,"repo":""}
+{"ts":"2026-07-25T23:53:00","task":"ART-034","slug":"driftfield","verify":"python3 -m unittest test_driftfield -q && node runtime_harness.cjs","exit_code":0,"passed":true,"seconds":2.3,"repo":""}
+{"ts":"2026-07-25T23:53:39","task":"GPU-010","slug":"vram-oracle","verify":"./verify.sh","exit_code":1,"passed":false,"seconds":0.4,"repo":""}
+{"ts":"2026-07-25T23:55:43","task":"SAAS-033","slug":"npm-handoff-watch","verify":"python3 -m unittest discover -s tests -v","exit_code":0,"passed":true,"seconds":0.2,"repo":""}
+{"ts":"2026-07-25T23:55:57","task":"GPU-010","slug":"vram-oracle","verify":"./verify.sh","exit_code":1,"passed":false,"seconds":0.4,"repo":"https://github.com/JesseRWeigel/vram-oracle"}
+{"ts":"2026-07-26T00:04:21","task":"AGENT-017","slug":"outbound-secret-guard","verify":"./verify.sh","exit_code":0,"passed":true,"seconds":2.2,"repo":"https://github.com/JesseRWeigel/outbound-secret-guard"}
+{"ts":"2026-07-26T00:05:00","task":"SAAS-033","slug":"npm-handoff-watch","verify":"python3 -m unittest discover -s tests -v","exit_code":0,"passed":true,"seconds":0.1,"repo":""}
+{"ts":"2026-07-26T00:09:20","task":"DEVT-001","slug":"type-debt-ratchet","verify":"bash scripts/verify.sh","exit_code":0,"passed":true,"seconds":4.0,"repo":"https://github.com/JesseRWeigel/type-debt-ratchet"}
+{"ts":"2026-07-26T00:11:57","task":"SAAS-033","slug":"npm-handoff-watch","verify":"python3 -m unittest discover -s tests -v","exit_code":0,"passed":true,"seconds":0.1,"repo":""}
+{"ts":"2026-07-26T00:14:56","task":"MEDIA-015","slug":"honest-newsletter-stats","verify":"bash verify.sh","exit_code":0,"passed":true,"seconds":0.5,"repo":"https://github.com/JesseRWeigel/honest-newsletter-stats"}
+{"ts":"2026-07-26T00:19:09","task":"DEVT-001","slug":"type-debt-ratchet","verify":"bash scripts/verify.sh","exit_code":0,"passed":true,"seconds":4.3,"repo":"https://github.com/JesseRWeigel/type-debt-ratchet"}
+{"ts":"2026-07-26T00:19:59","task":"SAAS-033","slug":"npm-handoff-watch","verify":"python3 -m unittest discover -s tests -v","exit_code":0,"passed":true,"seconds":0.1,"repo":""}
+{"ts":"2026-07-26T00:25:45","task":"EVAL-026","slug":"temp-zero-determinism","verify":"./verify.sh","exit_code":0,"passed":true,"seconds":3.4,"repo":"https://github.com/JesseRWeigel/temp-zero-determinism"}
+{"ts":"2026-07-26T00:26:54","task":"MEDIA-015","slug":"honest-newsletter-stats","verify":"bash verify.sh","exit_code":0,"passed":true,"seconds":0.5,"repo":""}
+{"ts":"2026-07-26T00:27:31","task":"MEDIA-015","slug":"honest-newsletter-stats","verify":"bash verify.sh","exit_code":0,"passed":true,"seconds":0.5,"repo":"https://github.com/JesseRWeigel/honest-newsletter-stats"}
+{"ts":"2026-07-26T00:28:19","task":"EVAL-007","slug":"destructive-propensity","verify":"bash verify.sh","exit_code":0,"passed":true,"seconds":19.7,"repo":""}
+{"ts":"2026-07-26T00:29:44","task":"EVAL-007","slug":"destructive-propensity","verify":"bash verify.sh","exit_code":0,"passed":true,"seconds":17.7,"repo":"https://github.com/JesseRWeigel/destructive-propensity"}
+{"ts":"2026-07-26T00:30:27","task":"EVAL-007","slug":"destructive-propensity","verify":"./verify.sh","exit_code":0,"passed":true,"seconds":20.1,"repo":"https://github.com/JesseRWeigel/destructive-propensity"}
+{"ts":"2026-07-26T09:35:04","task":"EDU-013","slug":"pitch-pair","verify":"bash verify.sh","exit_code":0,"passed":true,"seconds":0.1,"repo":""}
+{"ts":"2026-07-26T09:37:31","task":"EDU-013","slug":"pitch-pair","verify":"bash verify.sh","exit_code":0,"passed":true,"seconds":0.1,"repo":"https://github.com/JesseRWeigel/pitch-pair"}
+{"ts":"2026-07-26T09:49:21","task":"SAAS-035","slug":"should-i-install","verify":"node test/verify.js","exit_code":0,"passed":true,"seconds":1.7,"repo":"https://github.com/JesseRWeigel/should-i-install"}
+{"ts":"2026-07-26T09:51:02","task":"DEVT-001","slug":"type-debt-ratchet","verify":"bash scripts/verify.sh","exit_code":0,"passed":true,"seconds":5.3,"repo":"https://github.com/JesseRWeigel/type-debt-ratchet"}
+{"ts":"2026-07-26T09:55:28","task":"AGENT-017","slug":"outbound-secret-guard","verify":"./verify.sh","exit_code":0,"passed":true,"seconds":0.7,"repo":"https://github.com/JesseRWeigel/outbound-secret-guard"}
+{"ts":"2026-07-26T10:00:56","task":"DEVT-012","slug":"tailwind-lint","verify":"npm run verify","exit_code":0,"passed":true,"seconds":0.1,"repo":"https://github.com/JesseRWeigel/tailwind-lint"}
+{"ts":"2026-07-26T10:02:39","task":"SAAS-033","slug":"npm-handoff-watch","verify":"python3 -m unittest discover -s tests -q","exit_code":0,"passed":true,"seconds":0.1,"repo":"https://github.com/JesseRWeigel/npm-handoff-watch"}
+{"ts":"2026-07-26T10:09:08","task":"EVAL-004","slug":"env-leak-eval","verify":"./verify.sh","exit_code":0,"passed":true,"seconds":55.0,"repo":"https://github.com/JesseRWeigel/env-leak-eval"}
+{"ts":"2026-07-26T10:13:03","task":"ART-036","slug":"sfxforge","verify":"python3 -m unittest discover -s tests -q && python3 scripts/smoke_test.py","exit_code":0,"passed":true,"seconds":0.7,"repo":"https://github.com/JesseRWeigel/sfxforge"}
+{"ts":"2026-07-26T10:19:50","task":"ART-036","slug":"sfxforge","verify":"python3 -m unittest discover -s tests -q && python3 scripts/smoke_test.py","exit_code":0,"passed":true,"seconds":3.2,"repo":"https://github.com/JesseRWeigel/sfxforge"}
+{"ts":"2026-07-26T10:48:05","task":"MEDIA-015","slug":"honest-newsletter-stats","verify":"bash verify.sh","exit_code":0,"passed":true,"seconds":0.5,"repo":"https://github.com/JesseRWeigel/honest-newsletter-stats"}
+{"ts":"2026-07-26T10:49:46","task":"EVAL-026","slug":"temp-zero-determinism","verify":"./verify.sh","exit_code":0,"passed":true,"seconds":2.7,"repo":"https://github.com/JesseRWeigel/temp-zero-determinism"}
+{"ts":"2026-07-26T13:21:08","task":"DEVT-022","slug":"tsconfig-doctor","verify":"bash scripts/verify.sh","exit_code":0,"passed":true,"seconds":4.0,"repo":"https://github.com/JesseRWeigel/tsconfig-doctor"}
+{"ts":"2026-07-26T13:25:05","task":"GPU-010","slug":"vram-oracle","verify":"./verify.sh","exit_code":1,"passed":false,"seconds":0.4,"repo":"https://github.com/JesseRWeigel/vram-oracle"}
+{"ts":"2026-07-26T13:38:11","task":"WEIRD-007","slug":"illuminated","verify":"node test/verify.mjs","exit_code":0,"passed":true,"seconds":0.2,"repo":""}
+{"ts":"2026-07-26T15:06:53","task":"MEDIA-046","slug":"repurposer","verify":"python3 -m unittest discover -s tests -q && python3 scripts/verify_real_behavior.py","exit_code":0,"passed":true,"seconds":2.0,"repo":""}
+{"ts":"2026-07-26T15:07:13","task":"WEIRD-007","slug":"illuminated","verify":"node test/verify.mjs","exit_code":0,"passed":true,"seconds":0.2,"repo":""}
+{"ts":"2026-07-26T15:31:16","task":"ART-009","slug":"dithertool","verify":"bash scripts/verify.sh","exit_code":0,"passed":true,"seconds":4.7,"repo":"https://github.com/JesseRWeigel/dithertool"}
+{"ts":"2026-07-26T15:41:00","task":"ART-034","slug":"driftfield","verify":"python3 -m unittest -v","exit_code":0,"passed":true,"seconds":1.4,"repo":"https://github.com/JesseRWeigel/driftfield"}
+{"ts":"2026-07-26T15:41:03","task":"MEDIA-046","slug":"repurposer","verify":"python3 -m unittest discover -s tests -q && python3 scripts/verify_real_behavior.py","exit_code":0,"passed":true,"seconds":2.4,"repo":"https://github.com/JesseRWeigel/repurposer"}
+{"ts":"2026-07-26T15:41:03","task":"WEIRD-007","slug":"illuminated","verify":"node test/verify.mjs","exit_code":0,"passed":true,"seconds":0.3,"repo":"https://github.com/JesseRWeigel/illuminated"}
+{"ts":"2026-07-26T15:42:48","task":"EVAL-014","slug":"flip-rate","verify":"bash scripts/verify.sh","exit_code":0,"passed":true,"seconds":1.2,"repo":""}
