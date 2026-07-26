@@ -254,7 +254,7 @@ A browsable disc image of 300 invented shareware titles with period-accurate `FI
 
 **Scores:** $:4 CV:5 VIR:4 USE:3 ALT:4 | **Effort:** L | **Repo:** public
 
-The interesting problem is not the prose, it is the typesetting: laying out a directed graph of 200 sections into a physical book where every "turn to page 84" is actually correct requires solving pagination and reference resolution together, iterating until fixed point. Ship the layout engine as the real deliverable, plus one finished 200-section book as a print-ready PDF suitable for print-on-demand.
+The interesting problem is the typesetting rather than the prose: laying out a directed graph of 200 sections into a physical book where every "turn to page 84" is actually correct requires solving pagination and reference resolution together, iterating until fixed point. Ship the layout engine as the real deliverable, plus one finished 200-section book as a print-ready PDF suitable for print-on-demand.
 
 **Needs:** nothing
 

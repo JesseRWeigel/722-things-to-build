@@ -310,7 +310,7 @@ Run a real navigation with the Performance and Resource Timing APIs plus long-an
 
 **Scores:** $:4 CV:4 VIR:4 USE:5 ALT:5 | **Effort:** L | **Repo:** public
 
-Reading a lease, an EOB, a school IEP, or a consent form in a browser PDF viewer, you get a margin rail: every term of art annotated with what it means and, more importantly, what it means *for you* given a few facts you supply. Also flags the clauses that are unusual relative to a corpus of that document type, the point is not defining "indemnify", it is noticing that this indemnity clause is one-sided. Entirely local, since these documents are private. Done when it flags a genuinely unusual clause in a real lease.
+Reading a lease, an EOB, a school IEP, or a consent form in a browser PDF viewer, you get a margin rail: every term of art annotated with what it means and, more importantly, what it means *for you* given a few facts you supply. Also flags the clauses that are unusual relative to a corpus of that document type, the point is noticing that this indemnity clause is one-sided. Entirely local, since these documents are private. Done when it flags a genuinely unusual clause in a real lease.
 
 **Needs:** a corpus of standard-form documents per type to establish the baseline
 
