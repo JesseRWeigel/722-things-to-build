@@ -90,7 +90,7 @@ financial advice.
 
 ## What has been built from it so far
 
-21 entries in this catalog have been implemented, verified by running them, and published.
+22 entries in this catalog have been implemented, verified by running them, and published.
 Each one is linked from its entry on the site, and the label is generated from a log of real
 verify-command exit codes rather than written by hand, so nothing can be marked built without a
 recorded passing run behind it.
