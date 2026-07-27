@@ -57,3 +57,5 @@
 {"ts":"2026-07-26T15:41:03","task":"MEDIA-046","slug":"repurposer","verify":"python3 -m unittest discover -s tests -q && python3 scripts/verify_real_behavior.py","exit_code":0,"passed":true,"seconds":2.4,"repo":"https://github.com/JesseRWeigel/repurposer"}
 {"ts":"2026-07-26T15:41:03","task":"WEIRD-007","slug":"illuminated","verify":"node test/verify.mjs","exit_code":0,"passed":true,"seconds":0.3,"repo":"https://github.com/JesseRWeigel/illuminated"}
 {"ts":"2026-07-26T15:42:48","task":"EVAL-014","slug":"flip-rate","verify":"bash scripts/verify.sh","exit_code":0,"passed":true,"seconds":1.2,"repo":""}
+{"ts":"2026-07-26T20:21:53","task":"DEVT-025","slug":"assertless","verify":"bash scripts/verify.sh","exit_code":0,"passed":true,"seconds":0.5,"repo":"https://github.com/JesseRWeigel/assertless"}
+{"ts":"2026-07-26T20:32:12","task":"DEVT-025","slug":"assertless","verify":"bash scripts/verify.sh","exit_code":0,"passed":true,"seconds":0.5,"repo":"https://github.com/JesseRWeigel/assertless"}
