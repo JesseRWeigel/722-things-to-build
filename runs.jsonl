@@ -68,3 +68,4 @@
 {"ts":"2026-07-26T21:12:36","task":"WEIRD-003","slug":"repo-pet","verify":"bash scripts/verify.sh","exit_code":0,"passed":true,"seconds":27.5,"repo":""}
 {"ts":"2026-07-29T20:51:47","task":"AGENT-048","slug":"agent-replay","verify":"bash scripts/verify.sh","exit_code":0,"passed":true,"seconds":4.0,"repo":"https://github.com/JesseRWeigel/agent-replay"}
 {"ts":"2026-07-29T20:54:13","task":"EVAL-028","slug":"fabricated-citations","verify":"bash scripts/verify.sh","exit_code":0,"passed":true,"seconds":2.7,"repo":"https://github.com/JesseRWeigel/fabricated-citations"}
+{"ts":"2026-07-30T09:42:17","task":"CLI-010","slug":"llmawk","verify":"bash scripts/verify.sh","exit_code":0,"passed":true,"seconds":1.7,"repo":"https://github.com/JesseRWeigel/llmawk"}
