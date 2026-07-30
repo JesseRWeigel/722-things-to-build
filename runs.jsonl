@@ -69,3 +69,8 @@
 {"ts":"2026-07-29T20:51:47","task":"AGENT-048","slug":"agent-replay","verify":"bash scripts/verify.sh","exit_code":0,"passed":true,"seconds":4.0,"repo":"https://github.com/JesseRWeigel/agent-replay"}
 {"ts":"2026-07-29T20:54:13","task":"EVAL-028","slug":"fabricated-citations","verify":"bash scripts/verify.sh","exit_code":0,"passed":true,"seconds":2.7,"repo":"https://github.com/JesseRWeigel/fabricated-citations"}
 {"ts":"2026-07-30T09:42:17","task":"CLI-010","slug":"llmawk","verify":"bash scripts/verify.sh","exit_code":0,"passed":true,"seconds":1.7,"repo":"https://github.com/JesseRWeigel/llmawk"}
+{"ts":"2026-07-30T09:56:50","task":"EXT-023","slug":"review-order","verify":"bash scripts/verify.sh","exit_code":0,"passed":true,"seconds":1.4,"repo":""}
+{"ts":"2026-07-30T10:01:40","task":"EXT-023","slug":"review-order","verify":"bash scripts/verify.sh","exit_code":0,"passed":true,"seconds":1.5,"repo":""}
+{"ts":"2026-07-30T10:03:14","task":"DEVT-018","slug":"render-mode-diff","verify":"bash scripts/verify.sh","exit_code":0,"passed":true,"seconds":1.7,"repo":""}
+{"ts":"2026-07-30T10:06:41","task":"EXT-023","slug":"review-order","verify":"bash scripts/verify.sh","exit_code":0,"passed":true,"seconds":1.5,"repo":""}
+{"ts":"2026-07-30T10:08:52","task":"DEVT-018","slug":"render-mode-diff","verify":"bash scripts/verify.sh","exit_code":0,"passed":true,"seconds":1.7,"repo":"https://github.com/JesseRWeigel/render-mode-diff"}
