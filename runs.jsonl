@@ -65,3 +65,5 @@
 {"ts":"2026-07-26T20:46:08","task":"EVAL-014","slug":"flip-rate","verify":"bash scripts/verify.sh","exit_code":0,"passed":true,"seconds":1.3,"repo":"https://github.com/JesseRWeigel/flip-rate"}
 {"ts":"2026-07-26T20:46:24","task":"HLTH-008","slug":"caffeine-clock","verify":"bash scripts/verify.sh","exit_code":0,"passed":true,"seconds":2.2,"repo":"https://github.com/JesseRWeigel/caffeine-clock"}
 {"ts":"2026-07-26T20:46:59","task":"EDU-038","slug":"forking-paths","verify":"bash scripts/verify.sh","exit_code":0,"passed":true,"seconds":34.8,"repo":"https://github.com/JesseRWeigel/forking-paths"}
+{"ts":"2026-07-26T21:12:36","task":"WEIRD-003","slug":"repo-pet","verify":"bash scripts/verify.sh","exit_code":0,"passed":true,"seconds":27.5,"repo":""}
+{"ts":"2026-07-29T20:51:47","task":"AGENT-048","slug":"agent-replay","verify":"bash scripts/verify.sh","exit_code":0,"passed":true,"seconds":4.0,"repo":"https://github.com/JesseRWeigel/agent-replay"}
