@@ -90,7 +90,7 @@ financial advice.
 
 ## What has been built from it so far
 
-27 entries in this catalog have been implemented, verified by running them, and published.
+28 entries in this catalog have been implemented, verified by running them, and published.
 Each one is linked from its entry on the site, and the label is generated from a log of real
 verify-command exit codes rather than written by hand, so nothing can be marked built without a
 recorded passing run behind it.
@@ -110,7 +110,7 @@ $ bash scripts/verify.sh
 1. the parse is strict and accounts for every entry
     20-weird.md                  46 entries  Delightful Experiments & Art Objects
     TOTAL                       722 entries in 17 categories, 722 unique ids
-    verified-built tasks in this catalog: 27 (of 27 passing runs overall)
+    verified-built tasks in this catalog: 28 (of 28 passing runs overall)
   ok    parsed exactly 722 entries with unique ids
 
 2. an independent count from the raw markdown agrees
@@ -124,7 +124,7 @@ $ bash scripts/verify.sh
   ok    light and dark are both defined, with an attribute override in both directions
 
 5. only genuinely passing runs are labelled as built
-  27 tasks marked built, all backed by a passing run
+  28 tasks marked built, all backed by a passing run
   ok    every 'built' label is backed by a recorded passing run
 
 6. NEGATIVE CONTROL: a damaged catalog must fail the parse
