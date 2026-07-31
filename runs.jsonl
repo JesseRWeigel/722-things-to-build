@@ -83,3 +83,7 @@
 {"ts":"2026-07-30T10:19:54","task":"HLTH-041","slug":"supplement-flags","verify":"bash scripts/verify.sh","exit_code":0,"passed":true,"seconds":1.8,"repo":"https://github.com/JesseRWeigel/supplement-flags"}
 {"ts":"2026-07-31T06:51:18","task":"EXT-023","slug":"review-order","verify":"bash scripts/verify.sh","exit_code":0,"passed":true,"seconds":2.7,"repo":"https://github.com/JesseRWeigel/review-order"}
 {"ts":"2026-07-31T16:23:01","task":"MEDIA-031","slug":"svg-infographic","verify":"bash scripts/verify.sh","exit_code":0,"passed":true,"seconds":5.4,"repo":"https://github.com/JesseRWeigel/svg-infographic"}
+{"ts":"2026-07-31T16:44:29","task":"MEDIA-026","slug":"screencast-cut","verify":"bash scripts/verify.sh","exit_code":0,"passed":true,"seconds":15.2,"repo":""}
+{"ts":"2026-07-31T16:45:43","task":"ART-026","slug":"axis-motion","verify":"bash scripts/verify.sh","exit_code":0,"passed":true,"seconds":1.1,"repo":""}
+{"ts":"2026-07-31T16:50:38","task":"MEDIA-026","slug":"screencast-cut","verify":"bash scripts/verify.sh","exit_code":0,"passed":true,"seconds":12.4,"repo":"https://github.com/JesseRWeigel/screencast-cut"}
+{"ts":"2026-07-31T16:53:34","task":"ART-026","slug":"axis-motion","verify":"bash scripts/verify.sh","exit_code":0,"passed":true,"seconds":1.1,"repo":"https://github.com/JesseRWeigel/axis-motion"}
